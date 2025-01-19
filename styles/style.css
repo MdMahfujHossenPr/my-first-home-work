@@ -87,6 +87,7 @@ header{
 .first-btn{
     width: 196px;
     height: 44px;
+    border: none;
     border-radius: 41px;
     margin-top: 16.1px;
     color: rgb(255, 255, 255);
@@ -117,3 +118,120 @@ header{
 }
 
 /* Header Part End Here */
+
+/* Section One Part Start Here */
+
+.section-one{
+    width: 100%;
+    height: 110px;
+    margin-top: 69px;
+    justify-content: center;
+}  
+
+.img-container{
+    /* position: absolute; */
+    width: 1110px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+}
+
+/* Section One Part End Here */
+
+
+/* Section Two Part Start Here */
+ .section-two{
+    /* position: absolute;   */
+    width: 100%;
+    height: 1662px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.card-container{
+    /* position: absolute;  */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1047px;
+    height: 1662px;
+} 
+
+.card-header-container{
+    width: 1047;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.card-header{
+    color: rgb(58, 58, 58);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.main-card-container{
+    width: 1047px;
+    height: 1562px;
+    justify-content:flex-start;
+    align-items: flex-end;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr); 
+    gap: 0 30px;  
+}
+
+.card{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+/* Sharing the card picture*/
+#card-one{
+    /* position: absolute; */
+    width: 300px;
+    height: 256px;
+    margin: 14px 14px 16px 14px;
+}
+
+/* Sharing the card heading tittle */
+.card-tittle{
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 14px;
+}
+
+.card-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 14px;
+}
+
+.card-description{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 27px 119px 17px 14px; 
+}
+.card-footer-container{
+    width: 1047;
+    height: 75px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-footer{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+}
