@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* sharing display flex */
+.display-flex{
+    display: flex;
+}
+
+/* Sharing btn color */
+.btn-color{
+    background: rgb(224, 44, 109);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    max-width: 1190px;
+    max-height: 656px;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+
+}
+
+/* Navbar Start Here */
+.navbar{
+     width: 100%;
+     justify-content: space-between;
+}
+
+.brand{
+    color: rgb(58, 58, 58);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 95px;
+}
+
+.nav-links{
+    position: relative;
+    width: 463px;
+    height: 36px;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Navbar End Here */
+
+
+/* Header Part Start Here */
+.header-section{
+    width: 100%;
+    height: 475px;
+    margin-top: 50px;
+}
+
+.cam-tittle{
+    color: rgb(58, 58, 58);
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 104px;  
+}
+
+.cam-peragraup{
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.first-btn{
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    margin-top: 16.1px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+.cam-description{
+    /* position: absolute; */
+    flex-direction: column;
+    width: 582px;
+    height: 475px;
+    margin-right: 65.5px;  
+}
+
+
+.cam-bg-container{
+    /* position: absolute; */
+    width: 475px;
+    height: 475px;
+    margin-left: 65.5px;
+}
+
+.cam-container{
+   position: absolute;
+   width: 440px;
+   height: 414px;
+   margin: 30px 33px 31px 2px;
+}
+
+/* Header Part End Here */
