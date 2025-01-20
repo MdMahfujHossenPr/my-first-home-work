@@ -235,3 +235,102 @@ header{
     font-size: 16px;
     font-weight: 700;
 }
+/* Section Two Part End Here */
+
+/* Section Three Part Start Here */
+.feature-container{
+    /* position: absolute; */
+    width: 1110px;
+    height: 270px;
+    margin: 0 auto;
+    justify-content: space-between; 
+}
+
+.feature-img{
+    width: 404px;
+    height: 270px;
+}
+
+.feature-details{
+    width: 610px;
+    height: 270px;
+    margin-left: 96px;
+}
+
+.featured-tittle{
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 23px;
+}
+
+.featured-description{
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.feature-btn{
+    width: 155px;
+    height: 44px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+/* Section Three Part End Here */
+
+/* Footer Part Start Here */
+footer{
+    width: 100vw;
+    height: 224px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.952);
+}
+
+.footer-section{
+    width: 262px;
+    height: 156px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-heading{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-peragroup{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.footer-pera{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 6px;
+    text-align: center; 
+}
+
+.footer-icon{
+    width: 172px;
+    height: 17px;
+    font-size: 20px;
+    color: rgb(217, 219, 225);
+    margin: 17px 43px 0px 43px;
+    justify-content: space-around;
+}
+/* Footer Part End Here */
+ 
