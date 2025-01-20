@@ -20,6 +20,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     max-width: 1190px;
     max-height: 656px;
@@ -269,7 +273,7 @@ header{
 /* Section Three Part End Here */
 
 /* Footer Part Start Here */
-footer{
+  footer{
     width: 100vw;
     height: 224px;
     margin-top: 100px;
@@ -317,6 +321,6 @@ footer{
     color: rgb(217, 219, 225);
     margin: 17px 43px 0px 43px;
     justify-content: space-around;
-}
+}  
 /* Footer Part End Here */
  
