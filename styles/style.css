@@ -24,8 +24,6 @@ header{
     max-width: 1190px;
     max-height: 656px;
     margin: 0 auto;
-    /* justify-content: space-between; */
-
 }
 
 /* Navbar Start Here */
@@ -59,7 +57,6 @@ header{
     font-size: 16px;
     font-weight: 600;
 }
-
 /* Navbar End Here */
 
 
@@ -95,7 +92,6 @@ header{
     font-weight: 700;
 }
 .cam-description{
-    /* position: absolute; */
     flex-direction: column;
     width: 582px;
     height: 475px;
@@ -104,7 +100,6 @@ header{
 
 
 .cam-bg-container{
-    /* position: absolute; */
     width: 475px;
     height: 475px;
     margin-left: 65.5px;
@@ -116,11 +111,9 @@ header{
    height: 414px;
    margin: 30px 33px 31px 2px;
 }
-
 /* Header Part End Here */
 
 /* Section One Part Start Here */
-
 .section-one{
     width: 100%;
     height: 110px;
@@ -129,20 +122,17 @@ header{
 }  
 
 .img-container{
-    /* position: absolute; */
     width: 1110px;
     height: 110px;
     justify-content: center;
     align-items: center;
     gap: 61px;
 }
-
 /* Section One Part End Here */
 
 
 /* Section Two Part Start Here */
  .section-two{
-    /* position: absolute;   */
     width: 100%;
     height: 1662px;
     justify-content: center;
@@ -150,7 +140,6 @@ header{
     margin-top: 100px;
 }
 .card-container{
-    /* position: absolute;  */
     flex-direction: column;
     justify-content: space-between;
     width: 1047px;
@@ -181,7 +170,6 @@ header{
 }
 
 .card{
-    /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -193,7 +181,6 @@ header{
 }
 /* Sharing the card picture*/
 #card-one{
-    /* position: absolute; */
     width: 300px;
     height: 256px;
     margin: 14px 14px 16px 14px;
@@ -239,7 +226,6 @@ header{
 
 /* Section Three Part Start Here */
 .feature-container{
-    /* position: absolute; */
     width: 1110px;
     height: 270px;
     margin: 0 auto;
